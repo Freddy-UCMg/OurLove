@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Our Love Story - Anniversary Gift</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      body {
+        font-family: "Arial", sans-serif;
+        background-color: #fbe1e1; /* Light pastel pink background */
+        color: #333;
+        margin: 0;
+        padding: 0;
+      }
+      header {
+        background-color: #ff1493; /* Deep pink header */
+        color: white;
+        padding: 40px 0;
+        text-align: center;
+        border-bottom: 5px solid #fff;
+      }
+      h1 {
+        font-size: 40px;
+        margin: 0;
+      }
+      section {
+        padding: 30px;
+        margin: 20px;
+        background-color: #ffffff;
+        border-radius: 15px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+      .story-text {
+        font-size: 18px;
+        line-height: 1.6;
+        margin-bottom: 20px;
+        padding: 15px;
+        background-color: #ffe6f2; /* Light pink background for text box */
+        border-radius: 8px;
+      }
+      .story-text h2 {
+        font-size: 28px;
+        color: #ff1493;
+      }
+      .photo-gallery {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+        justify-content: center;
+        margin-bottom: 20px;
+      }
+      .photo-gallery .photo-container {
+        text-align: center;
+      }
+      .photo-gallery img {
+        width: 250px;
+        height: auto;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        transition: transform 0.3s ease-in-out;
+      }
+      .photo-gallery img:hover {
+        transform: scale(1.05);
+      }
+      .photo-gallery .caption {
+        margin-top: 8px;
+        font-size: 16px;
+        color: #333;
+      }
+
+      /* Romantic Swans image */
+      .swan-image {
+        display: block;
+        width: 100%;
+        max-width: 400px;
+        margin: 20px auto;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      }
+
+      /* Icon Boxes */
+      .icon-box {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 40px;
+        flex-wrap: wrap;
+      }
+      .icon-box .box {
+        background-color: #ff1493;
+        color: white;
+        padding: 20px;
+        border-radius: 10px;
+        width: 120px;
+        text-align: center;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        transition: transform 0.3s ease;
+        margin: 10px;
+      }
+      .icon-box .box:hover {
+        transform: scale(1.1);
+      }
+      .icon-box i {
+        font-size: 40px;
+        margin-bottom: 10px;
+      }
+      .icon-box p {
+        font-size: 18px;
+        margin: 0;
+      }
+
+      footer {
+        text-align: center;
+        background-color: #ff1493;
+        color: white;
+        padding: 10px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+      }
+
+      /* Mobile responsiveness */
+      @media (max-width: 768px) {
+        header h1 {
+          font-size: 32px;
+        }
+        .story-text {
+          font-size: 16px;
+        }
+        .photo-gallery img {
+          width: 100%;
+          max-width: 300px;
+        }
+        .icon-box {
+          flex-direction: column;
+          align-items: center;
+        }
+        .icon-box .box {
+          width: 80%;
+          margin: 10px 0;
+        }
+        footer {
+          position: static;
+          padding: 20px;
+        }
+      }
+
+      @media (max-width: 480px) {
+        .story-text h2 {
+          font-size: 24px;
+        }
+        header h1 {
+          font-size: 28px;
+        }
+        .photo-gallery img {
+          width: 100%;
+          max-width: 280px;
+        }
+      }
+
+      /* Laptop responsiveness */
+      @media (min-width: 769px) and (max-width: 1024px) {
+        .photo-gallery img {
+          width: 300px; /* Adjust the width as needed for laptop screens */
+          height: auto; /* Maintain aspect ratio */
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Our Love Story - 2nd Anniversary Gift</h1>
+    </header>
+
+    <section>
+      <!-- Photos before Chapter 1 -->
+      <div class="photo-gallery">
+        <div class="photo-container">
+          <img src="img/IMG_20240415_231443_295.jpg" alt="First Date" />
+          <div class="caption">First Date</div>
+        </div>
+        <div class="photo-container">
+          <img
+            src="img/IMG_20240415_231512_283.jpg"
+            alt="Our First Trip Together"
+          />
+          <div class="caption">At the Church</div>
+        </div>
+        <div class="photo-container">
+          <img src="img/IMG_20240415_231515_661.jpg" alt="Special Moment" />
+          <div class="caption">Special Moment</div>
+        </div>
+        <!-- Replace with your own photo -->
+      </div>
+
+      <!-- Chapter 1 -->
+      <div id="chapter1" class="story-text">
+        <h2>Chapter 1: The Beginning</h2>
+        <p>
+          From the first time we met, something magical happened. It was as
+          though the universe had brought us together, and our journey began.
+          We've experienced laughter, challenges, and moments that have shaped
+          us into who we are today. And as we celebrate our anniversary, I want
+          to relive those beautiful memories with you.
+        </p>
+      </div>
+
+      <div class="photo-gallery">
+        <div class="photo-container">
+          <img src="img/IMG_20240312_070118_562.jpg" alt="Together Again!" />
+          <div class="caption">Together Again</div>
+        </div>
+        <div class="photo-container">
+          <img src="img/IMG_20240317_164033.jpg" alt="Our Happy Moments" />
+          <div class="caption">Our Happy Moments</div>
+        </div>
+        <div class="photo-container">
+          <img
+            src="img/IMG_20240812_063651_069.jpg"
+            alt="Our Favourite Effect"
+          />
+          <div class="caption">4 Lone 2 yout</div>
+        </div>
+        <!-- Replace with your photo -->
+      </div>
+
+      <!-- Icon Boxes Section under Chapter 1 -->
+      <div class="icon-box">
+        <a href="#chapter1" class="box">
+          <i class="fas fa-heart"></i>
+          <!-- Heart Icon -->
+          <p>Endless Love</p>
+        </a>
+        <a href="#chapter2" class="box">
+          <i class="fas fa-ring"></i>
+          <!-- Ring Icon -->
+          <p>Engagement</p>
+        </a>
+        <a href="#chapter3" class="box">
+          <i class="fas fa-clock"></i>
+          <!-- Clock Icon -->
+          <p>Timeless Moments</p>
+        </a>
+      </div>
+
+      <!-- Chapter 2 -->
+      <div id="chapter2" class="story-text">
+        <h2>Chapter 2: Growing Together</h2>
+        <p>
+          As we grew together, every step we took felt like a milestone. We've
+          supported each other through thick and thin, and no matter what, our
+          love has only grown stronger. Here's to the countless memories we've
+          made and to the many more to come.
+        </p>
+      </div>
+
+      <div class="photo-gallery">
+        <div class="photo-container">
+          <img src="img/IMG_20240409_231035.jpg" alt="Birthday Celebration" />
+          <div class="caption">with My World</div>
+        </div>
+        <div class="photo-container">
+          <img src="img/IMG_20240324_090940_975.jpg" alt="Our Happy Moments" />
+          <div class="caption">Our Lovely Memories</div>
+        </div>
+        <div class="photo-container">
+          <img src="img/IMG_20240415_231739_938.jpg" alt="Together Always" />
+          <div class="caption">Together Always</div>
+        </div>
+        <!-- Replace with your photo -->
+      </div>
+
+      <!-- Chapter 3 -->
+      <div id="chapter3" class="story-text">
+        <h2>Chapter 3: Forever and Always</h2>
+        <p>
+          Here's to forever—our love story will never fade. With every passing
+          day, I am more grateful for your presence in my life. I am so lucky to
+          have you as my partner, my love, my everything. A Myarr Gyi Cxx tal.
+        </p>
+      </div>
+
+      <div class="photo-gallery">
+        <div class="photo-container">
+          <img src="img/IMG_20240326_083324_394.jpg" alt="Happy Together" />
+          <div class="caption">Happy Together</div>
+        </div>
+        <div class="photo-container">
+          <img src="img/IMG_20240416_121644.jpg" alt="Thingyan Moment" />
+          <div class="caption">Thingyan Moment</div>
+        </div>
+        <div class="photo-container">
+          <img src="img/IMG_20241014_222258.jpg" alt="Our Special Memory" />
+          <div class="caption">At Shwe Dagon Pagoda</div>
+        </div>
+        <!-- Replace with your photo -->
+      </div>
+    </section>
+
+    <footer>
+      <p>
+        Happy Anniversary, my love! Here's to many more years of love and
+        happiness.
+      </p>
+    </footer>
+
+    <!-- Add FontAwesome for icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  </body>
+</html>

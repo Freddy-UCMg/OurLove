@@ -1,0 +1,17 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #fbe1e1; /* Light pastel pink background */
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.photo-gallery img {
+  width: 250px; /* Adjust the width as needed */
+  height: 150px; /* Adjust the height as needed */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Add other CSS rules as needed */
